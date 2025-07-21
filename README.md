@@ -36,7 +36,7 @@ src/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/tribe-chat-project1.git
-   cd tribe-chat-project
+   cd tribe-chat-project1
    ```
 
 2. **Install dependencies**

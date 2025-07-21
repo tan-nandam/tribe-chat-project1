@@ -192,6 +192,12 @@ export const MessageList = forwardRef<MessageListRef, MessageListProps>((props, 
         </View>
       )}
       
+      {!hasMoreMessages && messages.length > 0 && (
+        <View style={styles.noMoreMessagesIndicator}>
+          <Text style={styles.noMoreMessagesText}>No more older messages</Text>
+        </View>
+      )}
+      
       <FlatList
         ref={flatListRef}
         data={items}

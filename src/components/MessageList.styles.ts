@@ -77,4 +77,14 @@ export const styles = StyleSheet.create({
   scrollToBottomTextDisabled: {
     color: '#999',
   },
-}); 
+  noMoreMessagesIndicator: {
+    paddingVertical: 10,
+    alignItems: 'center',
+    backgroundColor: '#f8f8f8',
+  },
+  noMoreMessagesText: {
+    fontSize: 14,
+    color: '#999',
+    fontStyle: 'italic',
+  },
+});
